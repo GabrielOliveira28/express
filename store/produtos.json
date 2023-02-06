@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "nome": "Love 66",
+        "marca": "Adalya",
+        "sabor": "Tutti Frut e Menta",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Hawaii",
+        "marca": "Adalya",
+        "sabor": "Abacaxi, Manga e Menta",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Banas",
+        "marca": "Adalya",
+        "sabor": "Banana",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "Peach Mint",
+        "marca": "Adalya",
+        "sabor": "Pêssego e Menta",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 5,
+        "nome": "Blue Ice",
+        "marca": "Adalya",
+        "sabor": "Mirtilo e Gelo",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 6,
+        "nome": "Blueberry Mint",
+        "marca": "Adalya",
+        "sabor": "Mirtilo e Menta",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 7,
+        "nome": "Blue Moon",
+        "marca": "Adalya",
+        "sabor": "Mirtilo",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 8,
+        "nome": "Cola Dragon",
+        "marca": "Adalya",
+        "sabor": "Cola e Bebida Energética",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 9,
+        "nome": "Ice",
+        "marca": "Adalya",
+        "sabor": "Menta",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 10,
+        "nome": "Ice Lime on The Rock",
+        "marca": "Adalya",
+        "sabor": "Gelo, Limão, Mirtilo e Pastilha",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 11,
+        "nome": "Lady Killer",
+        "marca": "Adalya",
+        "sabor": "Pêssego, Manga, Menta e Gelo",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    },
+    {
+        "id": 12,
+        "nome": "Mango Tango",
+        "marca": "Adalya",
+        "sabor": "Manga e Maracujá",
+        "img": "https://www.narguilepacks.com.br/smart/modulos/produtos/imagens/grande/essencia-adalya-mint_704-25.jpg"
+    }
+
+]

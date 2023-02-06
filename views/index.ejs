@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <%- include('partials/head.ejs') %>
+</head>
+<body>
+    
+    <%- include('partials/header.ejs') %>
+
+    <div class="banner">
+    </div>
+    <div class="container">
+        <h1>Produtos</h1>
+
+        <div class="content">
+            <% contentBox.forEach(item => { %>
+                <div class="box-content">
+                    <div class="info-box">
+                        <h2><%= item.nome %></h2>
+                        <h4><%= item.marca %></h4>
+                    </div>
+                    <div class="image-box">
+                        <img src="<%= item.img %>" alt="">
+                        <p> Sabor: <span><%= item.sabor %></span></p>
+                    </div>
+                </div>
+             
+            <% }) %>
+        </div>
+
+    </div>
+    
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

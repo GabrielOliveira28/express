@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head') %>
+</head>
+<body>
+    
+    <%- include('partials/header.ejs') %>
+    
+    <div class="container">
+
+        <h1>Posts</h1>
+
+        <form action="/salvar-post" method="post">
+
+            <h2>Escreva seu comentário</h2>
+
+            <div class="form-name">
+                <label>Nome:</label>
+                <input name="nome" type="text" placeholder="Ex: Gabriel Oliveira">
+            </div>
+            <div class="form-text">
+                <label>Ecreva seu comentário:</label>
+                <textarea name="texto" cols="100" rows="10"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+            
+            <% if (cadastrado) { %>
+                <div class="form-cadastrado">
+                    <p>Comentário enviado com sucesso!</p>
+                </div>
+            <% } %>
+
+        </form>
+
+        <div class="posts">
+            <% newPosts.forEach((element) => { %>
+                <div class="post">
+                    <h4><%= element.nome %></h4>
+                    <p><%= element.texto %></p>
+
+                    <% if (element.stars) { %>
+                        <% for( let index = 0; index < element.stars; index++ ) { %>
+                            <img src="https://www.clipartmax.com/png/middle/175-1753277_free-image-on-pixabay-star-icon-png.png">
+                        <% } %>
+                    <% } %>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
