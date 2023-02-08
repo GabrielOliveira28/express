@@ -32,6 +32,12 @@ app.get('/', (req, res) => {
     })
 })
 
+app.get('/flavors', (req, res) => {
+    res.render('flavors', {
+        title: 'Site - flavors'
+    })
+})
+
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'Site - About'
